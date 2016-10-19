@@ -52,36 +52,3 @@ $(document).ready(function($) {
         track_player.yt.playVideo();
     }
 });
-
-
-$(document).ready(function($) {
-	var key_1 = 0;
-	var key_2 = 0;
-	var key_3 = 0;
-	var key_4 = 0;
-	var key_5 = 0;
-	var key_audio = new Audio('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/_files/Original%20GhostBusters%20Theme%20Song.mp3');
-	document.addEventListener("keydown", function(event) {
-		if(event.key == "s") {
-			key_1 = 1;
-		} else if(event.key == "c") {
-			key_2 = 1;
-		} else if(event.key == "a") {
-			key_3 = 1;
-		} else if(event.key == "r") {
-			key_4 = 1;
-		} else if(event.key == "y") {
-			key_5 = 1;
-			key_audio.pause();
-			key_audio.currentTime = 0;
-			key_audio.play();
-			alert("happy halloween cunts");
-		} else {
-			key_1 = 0;
-			key_2 = 0;
-			key_3 = 0;
-			key_4 = 0;
-			key_5 = 0;
-		}
-	});
-});
