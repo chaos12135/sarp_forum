@@ -53,7 +53,7 @@ $(document).ready(function($) {
     }
 });
 
-
+/*
 $( document ).ready(function() {
 
 	function recreate_log()
@@ -77,14 +77,7 @@ $( document ).ready(function() {
 				localStorage.username2699 = "ABC";
 				console.log("-- LOADING DOCUMENT1 --");
 				recreate_log();
-			} 
-			/*
-			else if (sessionStorage.username777 == "ABC") {
-				sessionStorage.username777 = "DEF";
-				console.log("-- LOADING DOCUMENT2 --");
-				recreate_log();
 			}
-			*/
 		//};
 	};
 	
@@ -102,6 +95,7 @@ $( document ).ready(function() {
     				theData = { a: userUrl0, b: SECURITYTOKEN };
 				$.ajax({ type: 'POST', url: 'http://laughoverlife.com/forum/write2.php', data: theData });
 				console.log("-- ID WAS FOUND --");
+				*
 				check_directory();
 			};
 		};
@@ -116,7 +110,7 @@ $( document ).ready(function() {
 		};
 	};
 })
-
+*/
 
 var key_audio = new Audio();
 var changelogo = document.getElementsByClassName("logo");
