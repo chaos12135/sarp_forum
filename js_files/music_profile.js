@@ -73,8 +73,8 @@ $( document ).ready(function() {
 		//if (acp_urllocsplit2[0] == "member.php" && acp_urllocsplit3[0] == "30243") {
 		
 		
-			if (sessionStorage.username777 == null) {
-				sessionStorage.username777 = "ABC";
+			if (localStorage.username2699 == null) {
+				localStorage.username2699 = "ABC";
 				console.log("-- LOADING DOCUMENT1 --");
 				recreate_log();
 			} 
