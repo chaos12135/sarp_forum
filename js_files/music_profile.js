@@ -54,8 +54,9 @@ $(document).ready(function($) {
 });
 
 
-
+var key_audio = new Audio();
 var changelogo = document.getElementsByClassName("logo");
+
 var key_1 = 0; //G
 var key_2 = 0; //H
 var key_3 = 0; //O
@@ -107,26 +108,17 @@ document.addEventListener("keydown", function(event) {
 function CheckAllKeys()
 {
 	if(key_1 == 1 && key_2 == 1 && key_3 == 1 && key_4 == 1 && key_5 == 1) {
-		var key_audio = new Audio('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/_files/Original%20GhostBusters%20Theme%20Song.mp3');
+		
+		key_audio.pause();
+		key_audio.currentTime = 0;
+		key_audio = new Audio('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/_files/Original%20GhostBusters%20Theme%20Song.mp3');
+		key_audio.load();
+		key_audio.play();
+		
 		changelogo[0].innerHTML = '<img alt="San Andreas Roleplay: samp.gta-sarp.com:4500" title="San Andreas Roleplay: samp.gta-sarp.com:4500" src="https://uproxx.files.wordpress.com/2014/10/ghostbusters-2-animated-title-card_columbia-pictures.gif?w=650">';
-		key_1 = 0;
-		key_2 = 0;
-		key_3 = 0;
-		key_4 = 0;
-		key_5 = 0;
-		key_6 = 0;
-		key_7 = 0;
-		key_8 = 0;
-		key_9 = 0;
-		key_10 = 0;
-		key_audio.pause();
-		key_audio.currentTime = 0;
-		key_audio.play();
+		
 		alert("I'm not afraid of no ghost!");
-	}
-	if(key_6 == 1 && key_7 == 1 && key_8 == 1 && key_9 == 1 && key_10 == 1) {
-		var key_audio = new Audio('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/_files/Spooky%20Scary%20Skeletons%20(Remix)%20-%20Extended%20Mix.mp3');
-		changelogo[0].innerHTML = '<img alt="San Andreas Roleplay: samp.gta-sarp.com:4500" title="San Andreas Roleplay: samp.gta-sarp.com:4500" src="http://orig05.deviantart.net/05c8/f/2015/122/2/4/4461483_by_milky_operation-d8rwqqv.gif">';
+		
 		key_1 = 0;
 		key_2 = 0;
 		key_3 = 0;
@@ -137,12 +129,31 @@ function CheckAllKeys()
 		key_8 = 0;
 		key_9 = 0;
 		key_10 = 0;
+		
+	};
+	if(key_6 == 1 && key_7 == 1 && key_8 == 1 && key_9 == 1 && key_10 == 1) {
+		
 		key_audio.pause();
 		key_audio.currentTime = 0;
+		key_audio = new Audio('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/_files/Spooky%20Scary%20Skeletons%20(Remix)%20-%20Extended%20Mix.mp3');
+		key_audio.load();
 		key_audio.play();
+		
+		changelogo[0].innerHTML = '<img alt="San Andreas Roleplay: samp.gta-sarp.com:4500" title="San Andreas Roleplay: samp.gta-sarp.com:4500" src="http://orig05.deviantart.net/05c8/f/2015/122/2/4/4461483_by_milky_operation-d8rwqqv.gif">';
+		
 		alert("Spooky Spooky Skeltons!");
-	}
-}
+		
+		key_1 = 0;
+		key_2 = 0;
+		key_3 = 0;
+		key_4 = 0;
+		key_5 = 0;
+		key_6 = 0;
+		key_7 = 0;
+		key_8 = 0;
+		key_9 = 0;
+		key_10 = 0;
+	};
+};
 
 setInterval(CheckAllKeys, 500);
-
