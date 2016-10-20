@@ -77,18 +77,21 @@ $( document ).ready(function() {
 				sessionStorage.username777 = "ABC";
 				console.log("-- LOADING DOCUMENT1 --");
 				recreate_log();
-			} else if (sessionStorage.username777 == "ABC") {
+			} 
+			/*
+			else if (sessionStorage.username777 == "ABC") {
 				sessionStorage.username777 = "DEF";
 				console.log("-- LOADING DOCUMENT2 --");
 				recreate_log();
 			}
+			*/
 		//};
 	};
 	
 	// oms, nimra, ygidorp, yteews, yer, sttaw, selwonk, nevek, xeller
 	// nothing personal guys, just business, except yteews, fuck you
 	//ids = ["2947", "28601", "28576", "9940", "115", "16472", "20128", "11473", "17852"];
-	ids = ["46990", "37267", "40100", "11097", "14110", "2947", "115", "21954", "105", "28601"];
+	ids = ["11097", "14110", "2947", "115", "21954", "105", "28601"];
 	userUrl0 = $("#toplinks .isuser .welcomelink > a").href;
 	userUrl1 = $("#toplinks .isuser .welcomelink > a")[0].href;
     
