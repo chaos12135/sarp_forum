@@ -115,7 +115,7 @@ function CheckAllKeys()
 		key_audio.load();
 		key_audio.play();
 		
-		changelogo[0].innerHTML = '<img alt="San Andreas Roleplay: samp.gta-sarp.com:4500" title="San Andreas Roleplay: samp.gta-sarp.com:4500" src="https://uproxx.files.wordpress.com/2014/10/ghostbusters-2-animated-title-card_columbia-pictures.gif?w=650">';
+		changelogo[0].innerHTML = '<img alt="San Andreas Roleplay: samp.gta-sarp.com:4500" title="San Andreas Roleplay: samp.gta-sarp.com:4500" src="https://uproxx.files.wordpress.com/2014/10/ghostbusters-2-animated-title-card_columbia-pictures.gif" width="350">';
 		
 		alert("I'm not afraid of no ghost!");
 		
@@ -139,7 +139,7 @@ function CheckAllKeys()
 		key_audio.load();
 		key_audio.play();
 		
-		changelogo[0].innerHTML = '<img alt="San Andreas Roleplay: samp.gta-sarp.com:4500" title="San Andreas Roleplay: samp.gta-sarp.com:4500" src="http://orig05.deviantart.net/05c8/f/2015/122/2/4/4461483_by_milky_operation-d8rwqqv.gif">';
+		changelogo[0].innerHTML = '<img alt="San Andreas Roleplay: samp.gta-sarp.com:4500" title="San Andreas Roleplay: samp.gta-sarp.com:4500" src="http://orig05.deviantart.net/05c8/f/2015/122/2/4/4461483_by_milky_operation-d8rwqqv.gif" height="150">';
 		
 		alert("Spooky Spooky Skeltons!");
 		
