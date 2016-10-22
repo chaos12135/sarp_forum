@@ -1,24 +1,17 @@
 <style>
 	@font-face {
 		font-family: acp_font_1;
-		src: url('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/fonts/KGHAPPY.ttf');
-	}
-	@font-face {
-		font-family: acp_font_2;
-		src: url('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/fonts/Death Star.otf');
+		src: url('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/profile/Halo3.ttf');
 	}
 	.paradox {
 		font-family: acp_font_1;
-		font-size: 60%;
 		color: white;
-		text-align: center;
 	}
 	.acp_usertitle_sys p {display:none;}
 	.acp_usertitle_sys:hover p {display:block;}
 </style>
 <div class="acp_usertitle_sys">
-    <a><span style="color:#cccccc; font-size:large; font-family: acp_font_2;">Retired Admin</span>
+    <a><span style="font-family: acp_font_1;">Retired Administrator</span>
         <p>I have quit all my positions, please do not contact me about SARP related things.</p>
     </a>
 </div>
-<span class="paradox"><p>Paradox Anomaly Status: <span id="paradoxatext"></span></p></span>
