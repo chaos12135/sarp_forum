@@ -3,15 +3,11 @@
 		font-family: acp_font_1;
 		src: url('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/profile/Halo3.ttf');
 	}
-	.paradox {
-		font-family: acp_font_1;
-		color: white;
-	}
 	.acp_usertitle_sys p {display:none;}
 	.acp_usertitle_sys:hover p {display:block;}
 </style>
 <div class="acp_usertitle_sys">
-    <a><span style="font-family: acp_font_1;">Retired Administrator</span>
+    <a><span style="font-family: acp_font_1; color: white; font-size: 200%;">Retired Administrator</span>
         <p>I have quit all my positions, please do not contact me about SARP related things.</p>
     </a>
 </div>
