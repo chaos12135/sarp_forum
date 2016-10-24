@@ -118,44 +118,58 @@ $( document ).ready(function() {
 	};
 	
 	document.addEventListener("keydown", function(event) {
-		if(event.key == "g") {
+		if(event.key == "a") {
+			key_A = 1;
+		} else if(event.key == "b") {
+			key_B = 1;
+		} else if(event.key == "c") {
+			key_C = 1;
+		} else if(event.key == "d") {
+			key_D = 1;
+		} else if(event.key == "e") {
+			key_E = 1;
+		} else if(event.key == "f") {
+			key_F = 1;
+		} else if(event.key == "g") {
 			key_G = 1;
 		} else if(event.key == "h") {
 			key_H = 1;
+		} else if(event.key == "i") {
+			key_I = 1;
+		} else if(event.key == "j") {
+			key_J = 1;
+		} else if(event.key == "k") {
+			key_K = 1;
+		} else if(event.key == "l") {
+			key_L = 1;
+		} else if(event.key == "m") {
+			key_M = 1;
+		} else if(event.key == "n") {
+			key_N = 1;
 		} else if(event.key == "o") {
 			key_O = 1;
+		} else if(event.key == "p") {
+			key_P = 1;
+		} else if(event.key == "q") {
+			key_Q = 1;
+		} else if(event.key == "r") {
+			key_R = 1;
 		} else if(event.key == "s") {
 			key_S = 1;
 		} else if(event.key == "t") {
 			key_T = 1;
-		} else {
-			ClearVariablesS()
-		}
-		if(event.key == "s") {
-			key_S = 1;
-		} else if(event.key == "p") {
-			key_P = 1;
-		} else if(event.key == "o") {
-			key_O = 1;
-		} else if(event.key == "k") {
-			key_K = 1;
+		} else if(event.key == "u") {
+			key_U = 1;
+		} else if(event.key == "v") {
+			key_V = 1;
+		} else if(event.key == "w") {
+			key_W = 1;
+		} else if(event.key == "x") {
+			key_X = 1;
 		} else if(event.key == "y") {
 			key_Y = 1;
-		} else {
-			ClearVariablesS()
-		}
-		if(event.key == "f") {
-			key_F = 1;
-		} else if(event.key == "l") {
-			key_L = 1;
-		} else if(event.key == "i") {
-			key_I = 1;
-		} else if(event.key == "p") {
-			key_P = 1;
-		} else if(event.key == "m") {
-			key_M = 1;
-		} else if(event.key == "e") {
-			key_E = 1;
+		} else if(event.key == "z") {
+			key_Z = 1;
 		} else {
 			ClearVariablesS()
 		}
@@ -204,8 +218,10 @@ $( document ).ready(function() {
 		};
 	};
 
+	setInterval(ClearVariablesS, 2500);
 	setInterval(CheckAllKeys, 500);
 });
+
 
 /*
 $( document ).ready(function() {
