@@ -60,6 +60,7 @@ $( document ).ready(function() {
 	var key_audio = new Audio();
 	var changelogo = document.getElementsByClassName("logo");
 	
+	var key_ROLL = 0;
 	var key_FLIP = 0;
 	var key_A = 0;
 	var key_B = 0;
@@ -116,6 +117,20 @@ $( document ).ready(function() {
 		key_X = 0;
 		key_Y = 0;
 		key_Z = 0;
+	};
+	
+	function BarrelRollRotate()
+	{
+		key_ROLL = (key_ROLL + 1);
+		if(key_ROLL != 360){
+			setTimeout(BarrelRollRotate, 1);
+		} else {
+			key_ROLL = 0;
+		}
+		document.body.style.setProperty("-moz-transform", "rotate("+ key_ROLL +"deg)", null);
+		document.body.style.setProperty("-webkit-transform", "rotate("+ key_ROLL +"deg)", null);
+		document.body.style.setProperty("-o-transform", "rotate("+ key_ROLL +"deg))", null);
+		document.body.style.setProperty("transform", "rotate("+ key_ROLL +"deg)", null);
 	};
 	
 	document.addEventListener("keydown", function(event) {
@@ -178,6 +193,7 @@ $( document ).ready(function() {
 	
 	function CheckAllKeys()
 	{
+		//GHOST
 		if(key_G == 1 && key_H == 1 && key_O == 1 && key_S == 1 && key_T == 1) {
 
 			key_audio.pause();
@@ -192,6 +208,7 @@ $( document ).ready(function() {
 
 			ClearVariablesS()
 		};
+		//SPOKY
 		if(key_S == 1 && key_P == 1 && key_O == 1 && key_K == 1 && key_Y == 1) {
 
 			key_audio.pause();
@@ -206,6 +223,7 @@ $( document ).ready(function() {
 
 			ClearVariablesS()
 		};
+		//FLIPME
 		if(key_F == 1 && key_L == 1 && key_I == 1 && key_P == 1 && key_M == 1 && key_E == 1) {
 			if(key_FLIP == 0){
 				key_FLIP = 1;
@@ -222,9 +240,14 @@ $( document ).ready(function() {
 			}
 			ClearVariablesS()
 		};
+		//BARELROL
+		if(key_B == 1 && key_A == 1 && key_R == 1 && key_E == 1 && key_L == 1 && key_O == 1) {
+			setTimeout(BarrelRollRotate, 100);
+			ClearVariablesS()
+		};
 	};
 	
-	setInterval(CheckAllKeys, 400);
+	setInterval(CheckAllKeys, 250);
 	setInterval(ClearVariablesS, 3000);
 });
 
