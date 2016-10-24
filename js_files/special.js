@@ -135,6 +135,7 @@ $( document ).ready(function() {
 	
 	function CheckAllKeys()
 	{
+		/*
 		//GHOST
 		if(key_G == 1 && key_H == 1 && key_O == 1 && key_S == 1 && key_T == 1) {
 
@@ -150,6 +151,7 @@ $( document ).ready(function() {
 
 			ClearVariablesS()
 		};
+		*/
 		//SPOKY
 		if(key_S == 1 && key_P == 1 && key_O == 1 && key_K == 1 && key_Y == 1) {
 
