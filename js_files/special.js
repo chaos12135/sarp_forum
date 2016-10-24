@@ -242,6 +242,13 @@ $( document ).ready(function() {
 		};
 		//BARELROL
 		if(key_B == 1 && key_A == 1 && key_R == 1 && key_E == 1 && key_L == 1 && key_O == 1) {
+			
+			key_audio.pause();
+			key_audio.currentTime = 0;
+			key_audio = new Audio('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/_files/Do%20A%20Barrel%20Roll!.mp3');
+			key_audio.load();
+			key_audio.play();
+			
 			setTimeout(BarrelRollRotate, 100);
 			ClearVariablesS()
 		};
