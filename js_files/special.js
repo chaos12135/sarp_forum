@@ -164,6 +164,7 @@ $( document ).ready(function() {
 		    
 
 $( document ).ready(function() {
+	console.log("- - CHECKING PROFILE - -");
 	var acp_urlloc = window.location.href;
 	var acp_urllocsplit = acp_urlloc.split("/"); 
 	var acp_urllocsplit2 = acp_urllocsplit[(acp_urllocsplit.length)-1].split("?");
@@ -175,5 +176,6 @@ $( document ).ready(function() {
 		document.body.style.setProperty("transform", "scaleX(-1)", null);
 		document.body.style.setProperty("-ms-filter", "fliph", null);
 		document.body.style.setProperty("filter", "fliph", null);
+		console.log("- - FLIPPING PAGE - -");
 	}
 }
