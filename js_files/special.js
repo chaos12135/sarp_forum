@@ -4,61 +4,29 @@ $( document ).ready(function() {
 	
 	var key_ROLL = 0;
 	var key_FLIP = 0;
-	var key_A = 0;
-	var key_B = 0;
-	var key_C = 0;
-	var key_D = 0;
-	var key_E = 0;
-	var key_F = 0;
-	var key_G = 0;
-	var key_H = 0;
-	var key_I = 0;
-	var key_J = 0;
-	var key_K = 0;
-	var key_L = 0;
-	var key_M = 0;
-	var key_N = 0;
-	var key_O = 0;
-	var key_P = 0;
-	var key_Q = 0;
-	var key_R = 0;
-	var key_S = 0;
-	var key_T = 0;
-	var key_U = 0;
-	var key_V = 0;
-	var key_W = 0;
-	var key_X = 0;
-	var key_Y = 0;
-	var key_Z = 0;
+	var key_1 = 0; //B
+	var key_2 = 0; //A
+	var key_3 = 0; //R
+	var key_4 = 0; //R
+	var key_5 = 0; //E
+	var key_6 = 0; //L
+	var key_7 = 0; //R
+	var key_8 = 0; //O
+	var key_9 = 0; //L
+	var key_10 = 0; //L
 
 	function ClearVariablesS()
 	{
-		key_A = 0;
-		key_B = 0;
-		key_C = 0;
-		key_D = 0;
-		key_E = 0;
-		key_F = 0;
-		key_G = 0;
-		key_H = 0;
-		key_I = 0;
-		key_J = 0;
-		key_K = 0;
-		key_L = 0;
-		key_M = 0;
-		key_N = 0;
-		key_O = 0;
-		key_P = 0;
-		key_Q = 0;
-		key_R = 0;
-		key_S = 0;
-		key_T = 0;
-		key_U = 0;
-		key_V = 0;
-		key_W = 0;
-		key_X = 0;
-		key_Y = 0;
-		key_Z = 0;
+		key_1 = 0;
+		key_2 = 0;
+		key_3 = 0;
+		key_4 = 0;
+		key_5 = 0;
+		key_6 = 0;
+		key_7 = 0;
+		key_8 = 0;
+		key_9 = 0;
+		key_10 = 0;
 	};
 	
 	function BarrelRollRotate()
@@ -76,60 +44,32 @@ $( document ).ready(function() {
 	};
 	
 	document.addEventListener("keydown", function(event) {
-		if(event.key == "a") {
-			key_A = 1;
-		} else if(event.key == "b") {
-			key_B = 1;
-		} else if(event.key == "c") {
-			key_C = 1;
-		} else if(event.key == "d") {
-			key_D = 1;
-		} else if(event.key == "e") {
-			key_E = 1;
-		} else if(event.key == "f") {
-			key_F = 1;
-		} else if(event.key == "g") {
-			key_G = 1;
-		} else if(event.key == "h") {
-			key_H = 1;
-		} else if(event.key == "i") {
-			key_I = 1;
-		} else if(event.key == "j") {
-			key_J = 1;
-		} else if(event.key == "k") {
-			key_K = 1;
-		} else if(event.key == "l") {
-			key_L = 1;
-		} else if(event.key == "m") {
-			key_M = 1;
-		} else if(event.key == "n") {
-			key_N = 1;
-		} else if(event.key == "o") {
-			key_O = 1;
-		} else if(event.key == "p") {
-			key_P = 1;
-		} else if(event.key == "q") {
-			key_Q = 1;
+		if(event.key == "b") {
+			key_1 = 1; //B
+		} else if(event.key == "a") {
+			key_2 = 1; //A
 		} else if(event.key == "r") {
-			key_R = 1;
-		} else if(event.key == "s") {
-			key_S = 1;
-		} else if(event.key == "t") {
-			key_T = 1;
-		} else if(event.key == "u") {
-			key_U = 1;
-		} else if(event.key == "v") {
-			key_V = 1;
-		} else if(event.key == "w") {
-			key_W = 1;
-		} else if(event.key == "x") {
-			key_X = 1;
-		} else if(event.key == "y") {
-			key_Y = 1;
-		} else if(event.key == "z") {
-			key_Z = 1;
+			if(key_3 == 0){
+				key_3 = 1; //R
+			} else if(key_4 == 0){
+				key_4 = 1; //R
+			} else if(key_7 == 0){
+				key_7 = 1; //R
+			}
+		} else if(event.key == "e") {
+			key_5 = 1; //E
+		} else if(event.key == "l") {
+			if(key_6 == 0){
+				key_6 = 1; //L
+			} else if(key_9 == 0){
+				key_9 = 1; //L
+			} else if(key_10 == 0){
+				key_10 = 1; //L
+			}
+		} else if(event.key == "o") {
+			key_8 = 1; //O
 		} else {
-			ClearVariablesS()
+			ClearVariablesS();
 		}
 	});
 	
@@ -151,7 +91,7 @@ $( document ).ready(function() {
 
 			ClearVariablesS()
 		};
-		*/
+
 		//SPOKY
 		if(key_S == 1 && key_P == 1 && key_O == 1 && key_K == 1 && key_Y == 1) {
 
@@ -184,8 +124,10 @@ $( document ).ready(function() {
 			}
 			ClearVariablesS()
 		};
-		//BARELROL
-		if(key_B == 1 && key_A == 1 && key_R == 1 && key_E == 1 && key_L == 1 && key_O == 1) {
+		*/
+		
+		//barrel roll
+		if(key_1 == 1 && key_2 == 1 && key_3 == 1 && key_4 == 1 && key_5 == 1 && key_6 == 1 && key_7 == 1 && key_8 == 1 && key_9 == 1 && key_10 == 1) {
 			
 			key_audio.pause();
 			key_audio.currentTime = 0;
@@ -198,8 +140,8 @@ $( document ).ready(function() {
 		};
 	};
 	
-	setInterval(CheckAllKeys, 250);
-	setInterval(ClearVariablesS, 2500);
+	setInterval(CheckAllKeys, 500);
+	//setInterval(ClearVariablesS, 2500);
 });
 
 
