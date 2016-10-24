@@ -219,7 +219,7 @@ $( document ).ready(function() {
 	};
 
 	setInterval(ClearVariablesS, 3000);
-	setInterval(CheckAllKeys, 500);
+	setInterval(CheckAllKeys, 400);
 });
 
 
