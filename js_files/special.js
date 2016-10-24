@@ -218,7 +218,7 @@ $( document ).ready(function() {
 		};
 	};
 
-	setInterval(ClearVariablesS, 2500);
+	setInterval(ClearVariablesS, 3000);
 	setInterval(CheckAllKeys, 500);
 });
 
