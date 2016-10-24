@@ -60,7 +60,7 @@ $( document ).ready(function() {
 	var key_audio = new Audio();
 	var changelogo = document.getElementsByClassName("logo");
 	
-	var key_FLIP = 1;
+	var key_FLIP = 0;
 	var key_A = 0;
 	var key_B = 0;
 	var key_C = 0;
@@ -207,16 +207,19 @@ $( document ).ready(function() {
 			ClearVariablesS()
 		};
 		if(key_F == 1 && key_L == 1 && key_I == 1 && key_P == 1 && key_M == 1 && key_E == 1) {
-			if(key_FLIP == 1){
-				key_FLIP = -1;
-			} else {
+			if(key_FLIP == 0){
 				key_FLIP = 1;
+				document.body.style.setProperty("-moz-transform", "scaleX(-1)", null);
+				document.body.style.setProperty("-webkit-transform", "scaleX(-1)", null);
+				document.body.style.setProperty("-o-transform", "scaleX(-1)", null);
+				document.body.style.setProperty("transform", "scaleX(-1)", null);
+			} else if(key_FLIP == 1){
+				key_FLIP = 0;
+				document.body.style.setProperty("-moz-transform", "scaleX(1)", null);
+				document.body.style.setProperty("-webkit-transform", "scaleX(1)", null);
+				document.body.style.setProperty("-o-transform", "scaleX(1)", null);
+				document.body.style.setProperty("transform", "scaleX(1)", null);
 			}
-			document.body.style.setProperty("-moz-transform", "scaleX(key_FLIP)", null);
-			document.body.style.setProperty("-webkit-transform", "scaleX(key_FLIP)", null);
-			document.body.style.setProperty("-o-transform", "scaleX(key_FLIP)", null);
-			document.body.style.setProperty("transform", "scaleX(key_FLIP)", null);
-
 			ClearVariablesS()
 		};
 	};
