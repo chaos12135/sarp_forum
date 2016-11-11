@@ -8,7 +8,7 @@
 </style>
 <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
 <div class="acp_usertitle_sys">
-    <a><span style="font-family: Shrikhand; color: white;">Victoria</span>
-        <p><span style="color: white;">You make me laugh..</span></p>
+    <a><span style="font-family: Shrikhand; color: white; font-size: 40px;"><span style="color: red;">P</span><span style="color: blue;">R</span><span style="color: red;">E</span><span style="color: blue;">S</span><span style="color: red;">I</span><span style="color: blue;">D</span><span style="color: red;">E</span><span style="color: blue;">N</span><span style="color: red;">T</span> <span style="color: blue;">T</span><span style="color: red;">R</span><span style="color: blue;">U</span><span style="color: red;">M</span><span style="color: blue;">P</span></span>
+        <p><span style="color: white; font-family: acp_font_1;">It's all rigged..!</span></p>
     </a>
 </div>
