@@ -8,7 +8,7 @@
 </style>
 <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
 <div class="acp_usertitle_sys">
-    <a><img src="http://www.makeamericagreatagainpac.com/wp-content/uploads/2015/07/Make-America-Great-Again-Logo1.png">
+    <a><img src="http://www.makeamericagreatagainpac.com/wp-content/uploads/2015/07/Make-America-Great-Again-Logo1.png" height="95">
         <p><span style="color: white; font-family: Shrikhand; font-size: 20px;">It's all rigged..!</span></p>
     </a>
 </div>
