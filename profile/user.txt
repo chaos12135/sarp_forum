@@ -6,26 +6,9 @@
 	.acp_usertitle_sys p {display:none;}
 	.acp_usertitle_sys:hover p {display:block;}
 </style>
+<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
 <div class="acp_usertitle_sys">
-    <a><span style="font-family: acp_font_1; color: white; font-size: 200%;">Frozen Forest</span>
-        <p><span style="color: white;">Listen only to the sound of my voice.</br>
-Let your mind relax. Let your thoughts drift.</br>
-Let the bad memories fade.</br>
-Let peace be upon you. Surrender yourself to your dreams.</br>
-Let them wash over you like the gentle waves of the bluest ocean.</br>
-Let them envelop you. Comfort you.</br>
-
-Imagine somewhere calm. Imagine somewhere safe.</br>
-Imagine yourself in a frozen forest.</br>
-You're standing in a clearing.</br>
-Trees around you so tall, they touch the sky.</br>
-Pure white snowflakes fall all around.</br>
-You can feel them melt on your skin. You are not cold.</br>
-It cannot overcome the warmth of your beating heart. Can you hear it? You only have to listen.</br>
-
-You hear it slowing? You are slowing it.</br>
-You are in control.</br>
-Calm.</br>
-At peace.</br></span></p>
+    <a><span style="font-family: Shrikhand; color: white;">Victoria</span>
+        <p><span style="color: white;">You make me laugh..</span></p>
     </a>
 </div>
