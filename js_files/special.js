@@ -1,3 +1,4 @@
+/*
 $( document ).ready(function() {
 	var key_audio = new Audio();
 	var changelogo = document.getElementsByClassName("logo");
@@ -75,56 +76,6 @@ $( document ).ready(function() {
 	
 	function CheckAllKeys()
 	{
-		/*
-		//GHOST
-		if(key_G == 1 && key_H == 1 && key_O == 1 && key_S == 1 && key_T == 1) {
-
-			key_audio.pause();
-			key_audio.currentTime = 0;
-			key_audio = new Audio('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/_files/Original%20GhostBusters%20Theme%20Song.mp3');
-			key_audio.load();
-			key_audio.play();
-
-			changelogo[0].innerHTML = '<img alt="San Andreas Roleplay: samp.gta-sarp.com:4500" title="San Andreas Roleplay: samp.gta-sarp.com:4500" src="https://uproxx.files.wordpress.com/2014/10/ghostbusters-2-animated-title-card_columbia-pictures.gif" width="350">';
-
-			alert("I'm not afraid of no ghost!");
-
-			ClearVariablesS()
-		};
-
-		//SPOKY
-		if(key_S == 1 && key_P == 1 && key_O == 1 && key_K == 1 && key_Y == 1) {
-
-			key_audio.pause();
-			key_audio.currentTime = 0;
-			key_audio = new Audio('https://raw.githubusercontent.com/chaos12135/sarp_forum/master/_files/Spooky%20Scary%20Skeletons%20(Remix)%20-%20Extended%20Mix.mp3');
-			key_audio.load();
-			key_audio.play();
-
-			changelogo[0].innerHTML = '<img alt="San Andreas Roleplay: samp.gta-sarp.com:4500" title="San Andreas Roleplay: samp.gta-sarp.com:4500" src="http://orig05.deviantart.net/05c8/f/2015/122/2/4/4461483_by_milky_operation-d8rwqqv.gif" height="150">';
-
-			alert("Spooky Spooky Skeltons!");
-
-			ClearVariablesS()
-		};
-		//FLIPME
-		if(key_F == 1 && key_L == 1 && key_I == 1 && key_P == 1 && key_M == 1 && key_E == 1) {
-			if(key_FLIP == 0){
-				key_FLIP = 1;
-				document.body.style.setProperty("-moz-transform", "scaleX(-1)", null);
-				document.body.style.setProperty("-webkit-transform", "scaleX(-1)", null);
-				document.body.style.setProperty("-o-transform", "scaleX(-1)", null);
-				document.body.style.setProperty("transform", "scaleX(-1)", null);
-			} else if(key_FLIP == 1){
-				key_FLIP = 0;
-				document.body.style.setProperty("-moz-transform", "scaleX(1)", null);
-				document.body.style.setProperty("-webkit-transform", "scaleX(1)", null);
-				document.body.style.setProperty("-o-transform", "scaleX(1)", null);
-				document.body.style.setProperty("transform", "scaleX(1)", null);
-			}
-			ClearVariablesS()
-		};
-		*/
 		
 		//barrel roll
 		if(key_1 == 1 && key_2 == 1 && key_3 == 1 && key_4 == 1 && key_5 == 1 && key_6 == 1 && key_7 == 1 && key_8 == 1 && key_9 == 1 && key_10 == 1) {
@@ -143,7 +94,7 @@ $( document ).ready(function() {
 	setInterval(CheckAllKeys, 500);
 	//setInterval(ClearVariablesS, 2500);
 });
-
+*/
 
 /*
 $( document ).ready(function() {
