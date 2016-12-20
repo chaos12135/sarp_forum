@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function($) {
     var track_player = {yt: null, is_playing: true}
     var is_playing = true;
  
